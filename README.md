@@ -34,3 +34,19 @@
 10. Stretch Content size to allow it scrolling.
 11. Add __Content Size Filter__ component to Content. Set "Preferred Size" in Horizontal Fit.
 12. In Container set __Pivot__  0 (at x axe) and 0.5 (at y axe).
+
+## Menu Scrollbar
+1. Create a new __Canvas__, change its color.
+2. Add __Scroll View__ to the Canvas.
+3. Change it size (it should be like a screen size) and color.
+4. In Scroll View delete __Scrollbar Vertical__, change hight of __Scrollbar Horizontal__ to 0.
+5. In Scroll Viev -> Viewport -> Content add content (in this case there are buttons).
+6. Create __Button__, change its size and size of Content.
+7. In Content add _Content Size Filter_ component. Set Horizontal Fit to "Preferred size".
+8. In Content add _Horizontal Layout Group_ component. Set Child Alignment to "Middle Left", change spacing, left and right padding.
+9. In Content dublicate Button 4 times (or more, as you need).
+10. In Scroll View in _Scroll Rect_ component uncheck "Vertical".
+11. Create a new script.
+12. In code add logic you need.
+13. Add script to Content.
+14. Add _Scrollbar Horizontal_ to scrollbar field.
